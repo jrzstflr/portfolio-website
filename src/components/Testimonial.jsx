@@ -13,13 +13,13 @@ import tesla from "../assets/tesla logo.png";
             name: "John",
             position: "CEO of Google",
             image: TestimonialImg1,
-            feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ab alias minus provident illo ex expedita, repellendus recusandae fugiat iste esse laborum molestias sit exercitationem praesentium veniam repudiandae. Impedit, et.",
+            feedback: "The attention to detail and creativity in their designs are unparalleled. They seamlessly capture the essence of a brand while delivering functionality and aesthetics that exceed expectations. Truly a game-changer for our digital presence.",
         },
         {
             name: "Dina",
             position: "CEO of Amazon",
             image: TestimonialImg2,
-            feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ab alias minus provident illo ex expedita, repellendus recusandae fugiat iste esse laborum molestias sit exercitationem praesentium veniam repudiandae. Impedit, et.",
+            feedback: "Their innovative approach to design and branding sets a new standard in the industry. The team's dedication to excellence and user experience has been instrumental in creating platforms that resonate with our audience globally.",
         },
     ];
     

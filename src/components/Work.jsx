@@ -8,19 +8,19 @@ const Work = () => {
         {
             id: 1,
             title: "Bakery Landing Page Design",
-            desciption: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi molestias quos obcaecati illo earum iure minima voluptates ex ullam quibusdam cumque, magni est corporis distinctio assumenda aspernatur facilis quis fuga itaque autem.",
+            desciption: "A warm and inviting design showcasing delicious baked goods, crafted to drive customer engagement and orders.",
             workImage: work1,
         },
         {
             id: 2,
             title: "Shoe Store Ecommerce Landing Page",
-            desciption: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi molestias quos obcaecati illo earum iure minima voluptates ex ullam quibusdam cumque, magni est corporis distinctio assumenda aspernatur facilis quis fuga itaque autem.",
+            desciption: "A sleek and modern layout highlighting top products and promotions, designed for an easy shopping experience.",
             workImage: work2,
         },
         {
             id: 3,
             title: "ClearMix Landing Page",
-            desciption: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi molestias quos obcaecati illo earum iure minima voluptates ex ullam quibusdam cumque, magni est corporis distinctio assumenda aspernatur facilis quis fuga itaque autem.",
+            desciption: "A professional and clean design tailored to showcase ClearMix's services, enhancing credibility and conversions.",
             workImage: work3,
         }
     ];

@@ -17,17 +17,17 @@ const Services = () => {
         <div className='bg-gray-50 rounded-lg shadow-lg p-6'>
             <img src={service1} alt="Service 1"  className='w-full h-48 object-cover rounded-lg mb-4'/>
             <h3 className='text-2xl font-semibold text-gray-800 mb-2'>Landing Page Design</h3>
-            <p className='text-gray-600 mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p className='text-gray-600 mb-4'>Crafting visually engaging and user-friendly interfaces to attract and convert visitors.</p>
         </div>
         <div className='bg-gray-50 rounded-lg shadow-lg p-6'>
         <img src={service2} alt="Service 2"  className='w-full h-48 object-cover rounded-lg mb-4'/>
             <h3 className='text-2xl font-semibold text-gray-800 mb-2'>Branding</h3>
-            <p className='text-gray-600 mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p className='text-gray-600 mb-4'>Building a strong and memorable identity through cohesive visuals and messaging.</p>
         </div>
         <div className='bg-gray-50 rounded-lg shadow-lg p-6'>
         <img src={service3} alt="Service 3"  className='w-full h-48 object-cover rounded-lg mb-4'/>
             <h3 className='text-2xl font-semibold text-gray-800 mb-2'>Mobile App Design</h3>
-            <p className='text-gray-600 mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p className='text-gray-600 mb-4'>Designing intuitive and responsive apps for seamless user experiences on mobile devices.</p>
         </div>
       </div>
       <div className='mt-8 text-right'>

@@ -16,7 +16,7 @@ const About = () => {
       <div className=' w-full md:w-1/2 md:pl-12'>
         <h3 className='text-yellow-500 font-semibold text-lg uppercase mb-4'>A Bit</h3>
         <h2 className='text-4xl md:text-6xl font-bold text-gray-800 mb-6'>About Me</h2>    
-        <p className='text-gray-600 mb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatem enim repellendus reiciendis ex cum repudiandae veritatis temporibus est a at soluta, alias rem, deserunt ipsam pariatur quasi quia! Odio, debitis est!</p>
+        <p className='text-gray-600 mb-6'>a dedicated and compassionate individual pursuing a career as a Junior Programmer. Currently enrolled in the Associate in Computer Technology program at Clark College of Science and Technology, I am focused on honing my technical expertise and problem-solving skills. With a strong foundation in logical thinking and coding, I enjoy building simple programs and tackling algorithmic challenges. My commitment to learning and improving drives me to seek opportunities where I can contribute meaningfully and grow professionally. Beyond my technical pursuits, I bring a meticulous approach, exceptional typing skills, and an eagerness to learn, making me a reliable and adaptable team player.</p>
 
         <div className='flex flex-wrap mb-6'>
             <div className='flex items-center w-1/2 mb-4'>

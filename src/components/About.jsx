@@ -10,7 +10,7 @@ const About = () => {
     <div className="py-16 bg-gray-50">
       <div className="container mx-auto px-6 lg:px-14 flex flex-col md:flex-row items-center justify-between">
         <div
-          className="w-52 md:w-72 mb-8 md:mb-0 ml-0 md:ml-30"
+          className="w-90 md:w-120 mb-8 md:mb-0 ml-0 md:ml-30"
           data-aos="fade-right"
           data-aos-duration="800"
           data-aos-delay="100"

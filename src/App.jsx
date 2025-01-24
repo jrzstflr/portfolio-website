@@ -14,7 +14,8 @@ const App = () => {
     AOS.init({
       duration: 1000,
       once: true,
-      disable: "mobile", // Disable animations on mobile by default
+      disable: "mobile",
+      offset: 100, // Adjust this value to fine-tune when animations trigger
     })
 
     // Custom initialization for different screen sizes
@@ -50,7 +51,7 @@ const App = () => {
   }, [])
 
   return (
-    <div className="text-red-300">
+    <div className="text-red-300 pt-16">
       <Navbar />
       <Hero />
       <div

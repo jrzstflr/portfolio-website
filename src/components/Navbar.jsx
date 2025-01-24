@@ -1,11 +1,27 @@
-import React from "react"
-import { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { IoMdMenu } from "react-icons/io"
 import { IoClose } from "react-icons/io5"
 import CV from "../assets/cv.pdf"
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 20) {
+        setIsScrolled(true)
+      } else {
+        setIsScrolled(false)
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
+
   const handleItemClick = () => {
     setMenu(false)
   }
@@ -17,8 +33,10 @@ const Navbar = () => {
     { id: 5, text: "Contact", href: "#contact" },
   ]
   return (
-    <div className="bg-yellow-50 text-black w-full">
-      <div className="container mx-auto p04 hidden md:flex justify-between items-center">
+    <div
+      className={`fixed top-0 left-0 right-0 z-50 bg-yellow-50 bg-opacity-70 backdrop-filter backdrop-blur-lg text-black w-full transition-all duration-300 ${isScrolled ? "py-2" : "py-4"}`}
+    >
+      <div className="container mx-auto py-2 px-4 hidden md:flex justify-between items-center">
         <div className="text-xl md:text-2xl font-bold flex items-center gap-1">
           <span className="text-black">Camille</span>
           <span className="text-yellow-500">Apilado</span>
@@ -40,19 +58,19 @@ const Navbar = () => {
           Download CV
         </a>
       </div>
-      <div className="flex w-full justify-between items-center md:hidden p-2 shadow-md">
+      <div className="flex w-full justify-between items-center md:hidden py-2 px-4">
         <div className="text-xl font-bold flex items-center gap-2">
           <span className="text-black">Camille</span>
           <span className="text-yellow-500">Apilado</span>
         </div>
         <div className="flex justify-center items-center gap-2">
-          <div onClick={() => setMenu(!menu)}>
-            {menu ? <IoClose size={30} className="text-black" /> : <IoMdMenu size={30} className="text-black" />}
+          <div onClick={() => setMenu(!menu)} className="p-2 rounded-full bg-yellow-500 text-white">
+            {menu ? <IoClose size={24} /> : <IoMdMenu size={24} />}
           </div>
         </div>
       </div>
       {menu && (
-        <div className="md:hidden bg-yellow-50 py-6 justify-center items-center ga-2 text-lg text-black flex flex-col list-none shadow-sm">
+        <div className="fixed top-12 left-0 right-0 md:hidden bg-yellow-50 bg-opacity-70 backdrop-filter backdrop-blur-lg py-4 justify-center items-center gap-2 text-lg text-black flex flex-col list-none shadow-sm">
           {items.map(({ id, text, href }) => (
             <li key={id} className="hover:text-yellow-500 duration-200 cursor-pointer border-b w-11/12">
               <a href={href} onClick={handleItemClick}>

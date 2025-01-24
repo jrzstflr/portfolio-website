@@ -23,7 +23,7 @@ const Contact = () => {
           </div>
           <div className="space-y-4 text-gray-600">
             <FiMapPin className="text-yellow-500 w-6 h-6" />
-            <span>81 Mabini St. San Joaquin, Mabalacat City, Pampanga</span>
+            <span>181 Mabini St. San Joaquin, Mabalacat City, Pampanga</span>
           </div>
           <div className="space-y-4 text-gray-600">
             <FiPhone className="text-yellow-500 w-6 h-6" />

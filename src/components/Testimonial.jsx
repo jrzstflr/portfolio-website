@@ -41,7 +41,13 @@ const Testimonial = () => {
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto px-6 lg:px-24 text-center">
-        <div className="mb-12" data-aos="fade-up">
+        <div
+          className="mb-12"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="100"
+          data-aos-anchor-placement="top-bottom"
+        >
           <h3 className="text-yellow-500 font-semibold text-lg uppercase mb-2">Testimonials</h3>
           <h2 className="text-4xl font-bold text-gray-800 mb-4">What People Say</h2>
         </div>
@@ -50,7 +56,9 @@ const Testimonial = () => {
       <div
         className="relative max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6"
         data-aos="fade-up"
-        data-aos-delay="100"
+        data-aos-duration="800"
+        data-aos-delay="200"
+        data-aos-anchor-placement="center-bottom"
       >
         <div className="flex justify-center items-center mb-4">
           <img
@@ -76,7 +84,13 @@ const Testimonial = () => {
           </button>
         </div>
       </div>
-      <div className="mt-16" data-aos="fade-up" data-aos-delay="200">
+      <div
+        className="mt-16"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-delay="300"
+        data-aos-anchor-placement="center-bottom"
+      >
         <h4 className="text-xl font-semibold mb-14 text-center text-black">Who Makes Me Proud?</h4>
         <div className="flex justify-center gap-4 md:gap-16  lg:gap-32 items-center flex-wrap">
           <img src={slack || "/placeholder.svg"} alt="slack" className="h-6 ad:h-7 object-cover" />

@@ -8,13 +8,25 @@ const Services = () => {
   return (
     <div className="bg-white py-16 px-8">
       <div className="container mx-auto px-6 lb:px-24 text-center">
-        <div className="mb-12" data-aos="fade-up">
+        <div
+          className="mb-12"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="100"
+          data-aos-anchor-placement="top-bottom"
+        >
           <h3 className="text-yellow-500 font-semibold text-lg uppercase mb-2">Services</h3>
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Check My Services</h2>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-        <div className="bg-gray-50 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="100">
+        <div
+          className="bg-gray-50 rounded-lg shadow-lg p-6"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="200"
+          data-aos-anchor-placement="center-bottom"
+        >
           <img
             src={service1 || "/placeholder.svg"}
             alt="Service 1"
@@ -25,7 +37,13 @@ const Services = () => {
             Crafting visually engaging and user-friendly interfaces to attract and convert visitors.
           </p>
         </div>
-        <div className="bg-gray-50 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="200">
+        <div
+          className="bg-gray-50 rounded-lg shadow-lg p-6"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300"
+          data-aos-anchor-placement="center-bottom"
+        >
           <img
             src={service2 || "/placeholder.svg"}
             alt="Service 2"
@@ -36,7 +54,13 @@ const Services = () => {
             Building a strong and memorable identity through cohesive visuals and messaging.
           </p>
         </div>
-        <div className="bg-gray-50 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="300">
+        <div
+          className="bg-gray-50 rounded-lg shadow-lg p-6"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="400"
+          data-aos-anchor-placement="center-bottom"
+        >
           <img
             src={service3 || "/placeholder.svg"}
             alt="Service 3"

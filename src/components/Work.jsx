@@ -40,8 +40,10 @@ const Work = () => {
         <div
           key={study.id}
           className={`flex flex-col lg:flex-row items-center justify-between mb-16 lg:mb-24 ${index % 2 === 0 ? "lg:flex-row-reverse" : ""}`}
-          data-aos="fade-up"
+          data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
+          data-aos-duration="1000"
           data-aos-delay={200 + index * 100}
+          data-aos-anchor-placement="center-bottom"
         >
           <div className="w-full lg:w-1/3 p-4">
             <img

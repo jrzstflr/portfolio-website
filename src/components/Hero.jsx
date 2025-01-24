@@ -6,7 +6,13 @@ import CV from "../assets/cv.pdf"
 const Hero = () => {
   return (
     <div className="text-black flex flex-col-reverse md:flex-row justify-center items-center py-10 px-5 sm:px-10 lg:px-40 bg-gradient-to-t from-white to-yellow-50">
-      <div className="w-full md:w-1/2 mb-10 text-center md:text-left" data-aos="fade-right">
+      <div
+        className="w-full md:w-1/2 mb-10 text-center md:text-left"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        data-aos-anchor-placement="top-bottom"
+      >
         <h3 className="text-base md:text-lg lg:text-xl mb-0 md:-mb-2 text-yellow-500">Hello, I am</h3>
         <h1 className="text-2xl md:text-4xl lg:text-6xl my-0 md:-ml-1 font-bold py-2 md:py-2">Camille Apilado</h1>
         <h3 className="text-base md:text-xl lg:text-2xl text-green-600">Junior Developer</h3>
@@ -27,6 +33,9 @@ const Hero = () => {
       <div
         className="w-full md:w-1/2 px-10 md:px-0 flex justify-center md:justify-end mb-20 md:mb-0"
         data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+        data-aos-anchor-placement="top-bottom"
       >
         <img className="max-w-full h-auto" src={avatarImg || "/placeholder.svg"} alt="Avatar" />
       </div>

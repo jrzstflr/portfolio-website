@@ -9,10 +9,22 @@ const About = () => {
   return (
     <div className="py-16 bg-gray-50">
       <div className="container mx-auto px-6 lg:px-14 flex flex-col md:flex-row items-center justify-between">
-        <div className="w-52 md:w-72 mb-8 md:mb-0 ml-0 md:ml-30" data-aos="fade-right">
+        <div
+          className="w-52 md:w-72 mb-8 md:mb-0 ml-0 md:ml-30"
+          data-aos="fade-right"
+          data-aos-duration="800"
+          data-aos-delay="100"
+          data-aos-anchor-placement="center-bottom"
+        >
           <img src={aboutImg || "/placeholder.svg"} alt="About Me" className="w-full h-auto object-cover" />
         </div>
-        <div className="w-full md:w-1/2 md:pl-12" data-aos="fade-left">
+        <div
+          className="w-full md:w-1/2 md:pl-12"
+          data-aos="fade-left"
+          data-aos-duration="800"
+          data-aos-delay="200"
+          data-aos-anchor-placement="center-bottom"
+        >
           <h3 className="text-yellow-500 font-semibold text-lg uppercase mb-4">A Bit</h3>
           <h2 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">About Me</h2>
           <p className="text-gray-600 mb-6">
